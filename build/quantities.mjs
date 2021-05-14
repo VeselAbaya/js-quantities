@@ -377,7 +377,7 @@ var UNITS = {
   "<oersted>"  : [["Oe","oersted","oersteds"], 250.0 / Math.PI, "magnetism", ["<ampere>"], ["<meter>"]],
 
   /* energy */
-  "<joule>" :  [["J","joule","Joule","joules"], 1.0, "energy", ["<meter>","<meter>","<kilogram>"], ["<second>","<second>"]],
+  "<joule>" :  [["J","joule","Joule","joules","Joules"], 1.0, "energy", ["<meter>","<meter>","<kilogram>"], ["<second>","<second>"]],
   "<erg>"   :  [["erg","ergs"], 1e-7, "energy", ["<meter>","<meter>","<kilogram>"], ["<second>","<second>"]],
   "<btu>"   :  [["BTU","btu","BTUs"], 1055.056, "energy", ["<meter>","<meter>","<kilogram>"], ["<second>","<second>"]],
   "<calorie>" :  [["cal","calorie","calories"], 4.18400, "energy",["<meter>","<meter>","<kilogram>"], ["<second>","<second>"]],
@@ -389,6 +389,7 @@ var UNITS = {
   "<newton>"  : [["N","Newton","newton"], 1.0, "force", ["<kilogram>","<meter>"], ["<second>","<second>"]],
   "<dyne>"  : [["dyn","dyne"], 1e-5, "force", ["<kilogram>","<meter>"], ["<second>","<second>"]],
   "<pound-force>"  : [["lbf","pound-force"], 4.448222, "force", ["<kilogram>","<meter>"], ["<second>","<second>"]],
+  "<kilogram-force>"  : [["kgf","kilogram-force"], 9.806650, "force", ["<kilogram>","<meter>"], ["<second>","<second>"]],
 
   /* frequency */
   "<hertz>" : [["Hz","hertz","Hertz"], 1.0, "frequency", ["<1>"], ["<second>"]],
@@ -454,7 +455,9 @@ var UNITS = {
   "<dozen>" :  [["doz","dz","dozen"],12.0,"prefix_only", ["<each>"]],
   "<percent>": [["%","percent"], 0.01, "prefix_only", ["<1>"]],
   "<ppm>" :  [["ppm"],1e-6, "prefix_only", ["<1>"]],
-  "<ppt>" :  [["ppt"],1e-9, "prefix_only", ["<1>"]],
+  "<ppb>" :  [["ppb"],1e-9, "prefix_only", ["<1>"]],
+  "<ppt>" :  [["ppt"],1e-12, "prefix_only", ["<1>"]],
+  "<ppq>" :  [["ppq"],1e-15, "prefix_only", ["<1>"]],
   "<gross>" :  [["gr","gross"],144.0, "prefix_only", ["<dozen>","<dozen>"]],
   "<decibel>"  : [["dB","decibel","decibels"], 1.0, "logarithmic", ["<decibel>"]]
 };
